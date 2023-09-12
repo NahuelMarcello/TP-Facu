@@ -90,7 +90,7 @@
             this.label2.AutoSize = true;
             this.label2.Location = new System.Drawing.Point(9, 263);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(711, 39);
+            this.label2.Size = new System.Drawing.Size(713, 39);
             this.label2.TabIndex = 5;
             this.label2.Text = resources.GetString("label2.Text");
             // 
@@ -98,6 +98,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.SystemColors.HotTrack;
             this.ClientSize = new System.Drawing.Size(722, 340);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.bttn_OK);

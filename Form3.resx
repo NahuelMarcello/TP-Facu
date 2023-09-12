@@ -118,8 +118,9 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="label2.Text" xml:space="preserve">
-    <value>Aqui puede ver su mensaje y editarlo, una vez que este seguro de que sus datos esten correctos haga click en cerrar para mandar su tickt al soporte.
-Tiempo de espera minimo 3 dias habiles maximo 1 semana.
-Gracias por su paciencia.</value>
+    <value>Aquí puede ver su mensaje y editarlo, una vez que este seguro de que sus datos estén correctos haga click en cerrar para mandar su tickt al soporte.
+Tiempo de espera mínimo 3 días hábiles máximo 1 semana.
+Gracias por su paciencia.
+</value>
   </data>
 </root>

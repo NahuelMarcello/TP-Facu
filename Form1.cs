@@ -21,7 +21,6 @@ namespace TP_2
         const string USER = "admin";
         const string PASSWORD = "1234";
         int intento;
-        int flag;
 
         private void txt_user_TextChanged(object sender, EventArgs e)
         {
