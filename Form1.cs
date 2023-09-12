@@ -18,27 +18,18 @@ namespace TP_2
         {
             InitializeComponent();
         }
-        const string USER = "admin";
-        const string PASSWORD = "1234";
-        int intento;
-
-        private void txt_user_TextChanged(object sender, EventArgs e)
-        {
-           if (txt_user.Text == USER){ }
-        }
-
-        private void txt_pass_TextChanged(object sender, EventArgs e)
-        {
-           if(txt_pass.Text == PASSWORD){ }
-        }
-
+ 
+        private int intento = 0;
+        
         private void bttn_log_Click(object sender, EventArgs e)
         {
-            
+            string usuario = txt_user.Text;
+            string contraseña = txt_pass.Text;
+
             do
             {
-                if (!string.IsNullOrEmpty(txt_user.Text) && !string.IsNullOrEmpty(txt_pass.Text))
-                {
+                if (usuario == "admin" && contraseña == "1234")
+                {   
                     Form2 next = new Form2();
                     next.Show();
                     this.Hide();

@@ -42,7 +42,7 @@
             this.txt_user.Name = "txt_user";
             this.txt_user.Size = new System.Drawing.Size(246, 20);
             this.txt_user.TabIndex = 1;
-            this.txt_user.TextChanged += new System.EventHandler(this.txt_user_TextChanged);
+            
             // 
             // txt_pass
             // 
@@ -51,7 +51,7 @@
             this.txt_pass.PasswordChar = '*';
             this.txt_pass.Size = new System.Drawing.Size(246, 20);
             this.txt_pass.TabIndex = 2;
-            this.txt_pass.TextChanged += new System.EventHandler(this.txt_pass_TextChanged);
+            
             // 
             // bttn_log
             // 
