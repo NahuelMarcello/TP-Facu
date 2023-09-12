@@ -29,6 +29,10 @@ namespace TP_2
             {
                 Program.form1.Close();
             }
+            else
+            {
+                MessageBox.Show("Tenes una casilla vacia y/o te falta un dato", "Cuidado", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
         }
     }
 }
